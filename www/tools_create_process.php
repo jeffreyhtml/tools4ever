@@ -42,6 +42,6 @@ $tool_name = $_POST['tool_price'];
 
 
 require 'database.php'; //$conn
-sql = "INSERT INTO tools (tool_name, tool_category, tool_price, tool_brand)";
-VALUES ('tool_name, tool_category, tool_price, tool_brand');
+$sql = "INSERT INTO tools (tool_name, tool_category, tool_price, tool_brand)
+VALUES ('tool_name, tool_category, tool_price, tool_brand')";
 ?>
