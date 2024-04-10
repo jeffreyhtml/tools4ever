@@ -18,6 +18,7 @@
         <img src="images/Obuh.png" alt="">
     </header>
     <a href="tools_index.php">Overzicht gereedschap</a>
+    <a href="tools_create.php">Tool maken</a>
 </body>
 
 </html>
