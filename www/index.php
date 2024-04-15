@@ -19,6 +19,7 @@
     </header>
     <a href="tools_index.php">Overzicht gereedschap</a>
     <a href="tools_create.php">Tool maken</a>
+    <a href="registration.php">Registratie</a>
 </body>
 
 </html>
