@@ -27,7 +27,7 @@ if (!isset($_POST['tool_price'])) {
     exit;
 }
 
-if (!isset($_POST['tool_name'])  ||  !isset($_POST['tool_price']) || !isset($_POST['tool_category'])|| !isset($_POST['tool_brand'])){
+if (!isset($_POST['tool_name'])  ||  !isset($_POST['tool_price']) || !isset($_POST['tool_category']) || !isset($_POST['tool_brand'])) {
     echo "de tool naam bestaat niet";
     exit;
 }
@@ -44,4 +44,3 @@ $tool_name = $_POST['tool_price'];
 require 'database.php'; //$conn
 $sql = "INSERT INTO tools (tool_name, tool_category, tool_price, tool_brand)
 VALUES ('tool_name, tool_category, tool_price, tool_brand')";
-?>
