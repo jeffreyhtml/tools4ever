@@ -12,6 +12,11 @@
 </script>
 
 <body>
+<nav>
+    <ul>
+        <li><a href="tools_index.php">Overzicht tools</a></li>
+    </ul>
+</nav>
 
     <form action="tools_create_process.php" method="post">
         <div class="form-group">
