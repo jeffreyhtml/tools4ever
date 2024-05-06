@@ -5,9 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+<nav>
+    <ul>
+        <a href="tools_index.php">Overzicht tools</a>
+        <a href="tools_create.php">Huidige pagina</a>
+        <a href="registration.php"> Registratie</a>
+        <a href="login.php">Login</a>
+        
+    </ul>
+</nav>
     <form action="registration_procces.php" method="post">
         <div>
             <label for="email">Email</label>

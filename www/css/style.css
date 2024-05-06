@@ -1,5 +1,5 @@
 .form-group {
-    color: purple;
+    color: yellow;
     font-size: xx-large;
 }
 
@@ -8,5 +8,21 @@
 }
 
 * {
-    background-color: tan;
+    background-color: cadetblue;
 }
+img {
+    height: 400px;
+    width: 100;
+margin-left: 35%;
+}
+
+.index {
+    text-align: center;
+    
+}
+
+nav {
+    text-align: center;
+    
+}
+

@@ -14,7 +14,11 @@
 <body>
 <nav>
     <ul>
-        <li><a href="tools_index.php">Overzicht tools</a></li>
+        <a href="tools_index.php">Overzicht tools</a>
+        <a href="tools_create.php">Huidige pagina</a>
+        <a href="registration.php"> Registratie</a>
+        <a href="login.php">Login</a>
+        
     </ul>
 </nav>
 

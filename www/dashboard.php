@@ -1,3 +1,17 @@
+<?php
+
+require "database.php";
+
+$sql = "SELECT COUNT(*) AS aantal_tools FROM tools ";
+
+$result = mysqli_query($conn, $sql);
+
+$data = mysqli_fetch_assoc($result);
+
+echo "" . $data['aantal_tools'] . " tools";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,15 +33,3 @@
 </body>
 
 </html>
-<?php
-
-require "database.php";
-
-$sql = "SELECT COUNT(*) AS aantal_tools FROM tools ";
-
-$result = mysqli_query($conn, $sql);
-
-$data = mysqli_fetch_assoc($result);
-
-echo "" . $data['aantal_tools'] . " tools";
-?>
