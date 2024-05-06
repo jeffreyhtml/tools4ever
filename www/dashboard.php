@@ -10,6 +10,13 @@ $data = mysqli_fetch_assoc($result);
 
 echo "" . $data['aantal_tools'] . " tools";
 
+$sql = "SELECT AVG(tool_price) AS price FROM tools";
+$result= mysqli_query($conn, $sql);
+$average_price = mysqli_fetch_assoc($result);
+
+$sql = "SELECT AVG(tool_price), tool_category AS price FROM tools GROUP BY tool_category";
+$result= mysqli_query($conn, $sql);
+$average_price = mysqli_fetch_assoc($result);
 ?>
 
 <!DOCTYPE html>
