@@ -17,6 +17,9 @@ $average_price = mysqli_fetch_assoc($result);
 $sql = "SELECT AVG(tool_price), tool_category AS price FROM tools GROUP BY tool_category";
 $result= mysqli_query($conn, $sql);
 $average_price = mysqli_fetch_assoc($result);
+$sql = "SELECT font,backgroundCOLOR FROM users JOIN user_settings ON user_settings.user_id = users.id";
+
+$sql ="SELECT MAX(tool_price FROM tools";
 ?>
 
 <!DOCTYPE html>
