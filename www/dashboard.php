@@ -18,7 +18,8 @@ $sql = "SELECT AVG(tool_price), tool_category AS price FROM tools GROUP BY tool_
 $result= mysqli_query($conn, $sql);
 $average_price = mysqli_fetch_assoc($result);
 $sql = "SELECT font,backgroundCOLOR FROM users JOIN user_settings ON user_settings.user_id = users.id";
-
+$result= mysqli_query($conn, $sql);
+$data = mysqli_fetch_assoc($result);
 $sql ="SELECT MAX(tool_price FROM tools";
 ?>
 
@@ -28,7 +29,7 @@ $sql ="SELECT MAX(tool_price FROM tools";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
 </head>
 
 <body>
@@ -36,7 +37,7 @@ $sql ="SELECT MAX(tool_price FROM tools";
         <h1>Data van de databse</h1>
         <p>
             <span>Aantal gereedschap:</span> <?php echo $data['aantal']; ?>
-
+MICHAEL DONT LEAVE ME HERE.... MICHAELLLLLL
         </p>
 
     </section>
